@@ -23,14 +23,3 @@ Pentru ficare imagine din video, plasați un text vizibil care să descrie imagi
 
 5.
 Pe baza titlurilor alese la punctul 4, folosind biblioteca de text-to-speech pyttsx3, generați un fișier audio care să conțină pronunția textului scris pe imagini. Trebuie să aveți atenție la sicronizarea timpului de pronunțare a textului cu timpul de afișare a respectivei imagini în video.
-
-Configurări și instalări
-
-1.
-Pentru generarea de imagini, puteți folosi environment-ul virtual al laboratorului, am, la care mai trebuie să adăugați modulele tensorflow și keras_cv pip install tensorflow pip install --upgrade keras_cv
-
-2.
-Pentru salvarea sau prelucrarea imaginilor puteți folosi modulul opencv (dacă nu aveți deja creat environment-ul am, atunci vă puteți crea un environment nou care să conțină doar modulele folosite în această temă).
-
-3.
-Pentru sintetizarea fișierului audio, instalați biblioteca pyttsx3: pip install pyttsx3
